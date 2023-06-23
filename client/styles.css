@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(46, 46 ,46);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+form input {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    outline: none;
+    width: 20rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.results {
+    background-color: white;
+    width: 40rem;
+    padding: 1rem 1rem;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results.show {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.copy {
+    margin-left: 1rem;
+}
